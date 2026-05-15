@@ -87,7 +87,8 @@ nav{
     text-align: center;
     font-family: roboto mono;
     font-size: 15px;
-    margin: 15px
+    margin: 15px;
+    
 }
 
 .p2{
@@ -103,7 +104,11 @@ nav{
 margin: 40px 0px 0px 30px;
 }
 
-.caixa{
+.caixas{
+  text-align: center;
+}
+
+.caixa1{
     background-color: #111;
     color: white;
     width: 200px;
@@ -162,3 +167,4 @@ h2{
     margin: 15px;
     font-size: 15px;
 }
+
