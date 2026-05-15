@@ -1,0 +1,164 @@
+@font-face{
+    font-family: bebas neue;
+    src: url(BebasNeue-Regular.otf);
+}
+
+@font-face {
+    font-family: roboto mono;
+    src: url(Roboto_Mono/static/RobotoMono-Regular.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+
+h1{
+    font-family: bebas neue;
+    font-weight: bolder;
+    font-size: 70px;
+    padding: 50px;
+    
+
+}
+
+.lorenzo{
+    background-image: url(https://barbend.com/wp-content/uploads/2024/04/remembering-mike-mentzer-article-1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    
+    
+    
+}
+
+.low{
+    color: white;
+}
+
+.high{
+    color: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin: 0;
+    padding: 15px;
+    font-family: bebas neue;
+
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 23px; 
+}
+
+.footer a:hover{
+    color: red;
+}
+
+nav{
+    box-shadow: 0px 0px 10px red;
+}
+
+.p1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.filosofia{
+    color: red;
+    text-align: center;
+    font-family: roboto mono;
+    font-size: 15px;
+    margin: 15px
+}
+
+.p2{
+    color: white;
+    text-align: center;
+    font-family: bebas neue;
+    font-size: 30px;
+}
+
+#i{
+    color: white;
+    font-size: 15px; 
+margin: 40px 0px 0px 30px;
+}
+
+.caixa{
+    background-color: #111;
+    color: white;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px 0px 0px 30px;
+    text-align: center;
+    display: inline-block;
+    font-family: roboto mono;
+    font-size: 10px;
+
+}
+
+h2{
+    color: rgb(255, 0, 0);
+}
+
+.caixa2{
+    background-color: #111;
+    color: white;
+    width: 200px;
+    height: 130px;
+    padding: 20px;
+    margin: 20px 0px 0px 30px;
+    text-align: center;
+    display: inline-block;
+    font-family: roboto mono;
+    font-size: 10px;
+    vertical-align: top;
+
+}
+
+.divisao{
+    text-align: center;
+    font-family: roboto mono;
+    margin: 30px 0px 15px 0px;
+    font-size: 15px;
+}
+
+.split{
+    color: white;
+    font-family: bebas neue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dias{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+.h3{
+    margin: 15px;
+    font-size: 15px;
+}
