@@ -67,6 +67,7 @@ h1{
     border-radius: 5px;
     font-size: 23px; 
     font-size: clamp(0.9rem, 3vw, 1.25rem);
+    white-space: nowrap;
 }
 
 .footer a:hover{
