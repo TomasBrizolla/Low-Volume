@@ -66,6 +66,7 @@ h1{
     transition: 0.3s;
     border-radius: 5px;
     font-size: 23px; 
+    font-size: clamp(0.9rem, 3vw, 1.25rem);
 }
 
 .footer a:hover{
@@ -168,3 +169,9 @@ h2{
     font-size: 15px;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
